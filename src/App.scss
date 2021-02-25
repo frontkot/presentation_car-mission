@@ -1,0 +1,29 @@
+.right-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vh;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(255,255,255,0) 80%, rgba(255, 255, 255, 0.2) 80%);
+  z-index: -1;
+}
+.left-line {
+  position: absolute;
+  top: 0;
+  width: 100vh;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(255,255,255, 0.2) 20%, rgba(43,47,49,0) 20%);
+  z-index: -1;
+
+}
+
+.underline {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+}
+
+.container {
+  padding: 20px 50px 0;
+  overflow: hidden;
+}
