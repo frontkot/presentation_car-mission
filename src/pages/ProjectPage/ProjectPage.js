@@ -6,6 +6,10 @@ import Header from '../../components/Header/Header';
 
 const ProjectPage = () => {
 
+  const openSitePage = (e) => {
+    e.preventDefault()
+    window.open("https://cars-mission.herokuapp.com/")
+  }
 
   return (
     <div className="page__container">
@@ -18,7 +22,7 @@ const ProjectPage = () => {
         </div>
         <div className="page__link">
           <img className="page__link-img" src="img/qrcode_cars-mission.png" alt="qr-code"/>
-        <Link className="page__link-button" to="https://cars-mission.herokuapp.com/" target="_blank">Перейти на сайт</Link>
+        <Link className="page__link-button" onClick={(e) => openSitePage(e)}>Перейти на сайт</Link>
         </div>
       </div>
 
