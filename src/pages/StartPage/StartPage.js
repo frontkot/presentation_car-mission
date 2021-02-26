@@ -11,8 +11,8 @@ const StartPage = () => (
       <div className="start-page__human">
         <img src="/img/start-page/power-point.png" className="img-static" alt="power-point" />
         <img src="/img/start-page/google-slides.png" className="img-static" alt="google-slider" />
-        <img src="/img/start-page/canva.png" className="img-static" alt="canva" />
         <img src="/img/start-page/tilda.png" className="img-static" alt="tilda" />
+        <img src="/img/start-page/canva.png" className="img-static" alt="canva" />
       </div>
       </div>
       <div className="start-page__developer">

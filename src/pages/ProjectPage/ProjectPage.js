@@ -22,7 +22,7 @@ const ProjectPage = () => {
         </div>
       </div>
 
-      <NavBlock prevPath="/project-info" nextPath="/project-admin" />
+      <NavBlock prevPath="/project-info" nextPath="/project-results" />
     </div>
   );
 };

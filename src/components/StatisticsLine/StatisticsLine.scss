@@ -2,7 +2,8 @@
   &__block {
     display: flex;
     align-items: center;
-    padding: 10px 40px;
+    padding: 15px 40px;
+    font-size: 22px;
   }
   &__text, &__only-text {
     color: white;
@@ -52,7 +53,7 @@
 @keyframes px600 {0% {width: 0;} 100% {width: 55%;}}
 @keyframes px200 {0% {width: 0;} 100% {width: 20%;}}
 @keyframes px500 {0% {width: 0;} 100% {width: 50%;}}
-@keyframes px900 {0% {width: 0;} 100% {width: 75%;}}
+@keyframes px900 {0% {width: 0;} 100% {width: 70%;}}
 @keyframes px550 {0% {width: 0;} 100% {width: 55%;}}
 @keyframes px90 {0% {width: 0;} 100% {width: 9%;}}
 @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}

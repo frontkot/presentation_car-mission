@@ -56,7 +56,7 @@ const TeamPage = () => {
           {count >= 7 ?
           <>
             <Header text="Ментор" />
-            <User name="Серибег Караханян" photo="/img/team/saribeg.jpeg" />
+            <User name="Сарибег Караханян" photo="/img/team/saribeg.jpeg" />
           </>
           : null
           }

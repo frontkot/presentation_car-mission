@@ -5,6 +5,7 @@ import StartPage from '../pages/StartPage/StartPage';
 import TeamPage from '../pages/TeamPage/TeamPage';
 import TechPage from '../pages/TeckPage/TechPage';
 import ProjectPage from '../pages/ProjectPage/ProjectPage';
+import ProjectResults from '../pages/ProjectResults/ProjectResults';
 
 const MainRoutes = () => {
   return (
@@ -14,10 +15,7 @@ const MainRoutes = () => {
       <Route exact path="/tech-stack" component={TechPage} />
       <Route exact path="/project-info" component={ProjectInfoPage} />
       <Route exact path="/project-page" component={ProjectPage} />
-      {/* <Route exact path="/project-admin" component={} /> */}
-      {/* <Route exact path="/" component={} /> */}
-      {/* <Route exact path="/" component={} /> */}
-
+      <Route exact path="/project-results" component={ProjectResults} />
     </Switch>
   );
 };

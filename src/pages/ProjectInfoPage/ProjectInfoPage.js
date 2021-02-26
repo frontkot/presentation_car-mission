@@ -8,15 +8,15 @@ import Header from '../../components/Header/Header';
 const content = [
   {text: 'pull request - 159', count: '259'},
   {text: 'pull request done - 142', count: '230'},
-  {text: 'обсуждений - 31', count: '80'},
+  {text: 'discussions - 31', count: '80'},
   {text: 'commits - 581', count: '600'},
-  {text: 'для подтверждения реквеста нужны было 2 апрува'},
-  {text: 'Cоздано более 110 карточек в трелло, 103 из нх закрыты успешно', count: '200'},
-  {text: 'потрачено 450 часов', count: '500'},
-  {text: 'more than  32074 code strings', count: '900'},
+  {text: '2 approvals were needed to confirm the request'},
+  {text: 'More than 110 cards created in trello, 103 of them were closed successfully', count: '200'},
+  {text: 'spent 450 hours', count: '500'},
+  {text: 'more than 32074 lines of code', count: '900'},
   {text: 'create files - 496', count: '550'},
   {text: 'delete mode - 91', count: '90'},
-  {text: '9.5 requests per week, 8 commits per day, 71 string per hour'},
+  {text: '9.5 requests per week, 8 commits per day, 71 lines per hour'},
 ]
 
 const ProjectInfoPage = () => {
