@@ -14,6 +14,7 @@ const front = [
   {name: "SASS/SCSS"},
   {name: "Formik"},
   {name: "Axios"},
+  {name: "Toastr"},
   {name: "Jest/Enzyme"},
   {name: "React-dropzone"},
   {name: "React-html-parser"},
